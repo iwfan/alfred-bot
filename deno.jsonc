@@ -1,6 +1,6 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts",
-    "publish": "deno bundle main.ts out/main.js && wrangler publish"
+    "build": "deno bundle main.ts api/alfred.js"
   }
 }
